@@ -2,7 +2,6 @@ package com.cicd.expense_tracker_api.controller;
 
 import com.cicd.expense_tracker_api.dto.ExpenseRequestDto;
 import com.cicd.expense_tracker_api.dto.ExpenseResponseDto;
-import com.cicd.expense_tracker_api.entity.Expense;
 import com.cicd.expense_tracker_api.service.ExpenseService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
