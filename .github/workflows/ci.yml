@@ -33,3 +33,6 @@ jobs:
 
       - name: Build Application
         run: mvn clean install
+
+      - name: Build Docker Image
+        run: docker build -t expense-tracker-api .
