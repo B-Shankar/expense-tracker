@@ -46,4 +46,9 @@ public class ExpenseController {
 
         return "Expense deleted successfully";
     }
+
+    @GetMapping("/test")
+    public String testingApi() {
+        return "Hi User, App is running!";
+    }
 }
