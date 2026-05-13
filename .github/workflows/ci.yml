@@ -52,3 +52,6 @@ jobs:
         run: |
           docker push \
           ${{ secrets.DOCKER_USERNAME }}/expense-tracker-api:latest
+
+      - name: Trigger Render Deploy
+        run: curl ${{ secrets.RENDER_DEPLOY_HOOK }}
