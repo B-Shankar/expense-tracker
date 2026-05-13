@@ -49,6 +49,6 @@ public class ExpenseController {
 
     @GetMapping("/test")
     public String testingApi() {
-        return "Hi User, App is running!";
+        return "Application is running!";
     }
 }
